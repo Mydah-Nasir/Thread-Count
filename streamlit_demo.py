@@ -139,6 +139,5 @@ else:
 # ---------------- SIDEBAR ----------------
 with st.sidebar:
     st.header("Settings")
-    st.write("Model: GPT-4o Vision (High Detail)")
     st.divider()
     st.caption("Tip: If the count is wrong, ensure there is no direct glare on the white labels.")
