@@ -85,7 +85,7 @@ st.title("🧵 Industrial Spool Scanner")
 st.markdown("Automated grid counting and shade extraction for warehouse inventory.")
 
 uploaded_file = st.file_uploader("Upload Grid or Close-up Image", type=["jpg", "jpeg", "png"])
-
+print('file uploaded')
 if uploaded_file:
     # 2026 Layout style
     col_img, col_data = st.columns([1, 1])
