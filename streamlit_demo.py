@@ -138,6 +138,6 @@ else:
 
 # ---------------- SIDEBAR ----------------
 with st.sidebar:
-    st.header("Settings")
+    st.header("Side Nav")
     st.divider()
     st.caption("Tip: If the count is wrong, ensure there is no direct glare on the white labels.")
